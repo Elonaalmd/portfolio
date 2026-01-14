@@ -1,0 +1,31 @@
+#presentation>div:last-child {
+	width: 90vw;
+	display: flex;
+	align-items: center;
+}
+
+#presentation>div:last-child>img {
+	box-shadow: 7px 9px 6.1px rgba(0, 0, 0, 0.25);
+	width: 35vw;
+	margin-right: 6vw;
+}
+
+#presentation>div:last-child>p {
+	font-size: 18px;
+	margin-right: 6vw;
+}
+
+#logi_spinner {
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	background-color: #c8b8e2;
+	width: 90vw;
+	border-radius: 30px;
+}
+
+#logi_spinner>img {
+	width: 7vw;
+}

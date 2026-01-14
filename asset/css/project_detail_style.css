@@ -1,0 +1,36 @@
+main>section>a {
+	position: absolute;
+	top: 72vh;
+	left: 5vw;
+}
+
+main>section>a>img {
+	width: 5vw;
+	height: 5vw;
+}
+
+main>section>div:last-child {
+	display: flex;
+	flex-direction: column;
+}
+
+main>section>div>img {
+	width: 56vw;
+	height: 58vh;
+	margin-bottom: 19vh;
+	align-self: center;
+}
+
+main>section>div>div>div {
+	display: flex;
+	margin-bottom: 7vh;
+}
+
+main>section>div>div>div>p:first-child {
+	width: 16vw;
+	font-size: 32px;
+}
+
+main>section>div>div>div>p:last-child {
+	font-size: 18px;
+}
