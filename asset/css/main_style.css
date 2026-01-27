@@ -18,6 +18,14 @@ body {
 	background-color: #ffecf9;
 }
 
+#gallery>img {
+	display: none;
+}
+
+#gallery>img:first-child {
+	display: inline;
+}
+
 header>img {
 	border-radius: unset;
 	width: 100vw;
