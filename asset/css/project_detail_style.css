@@ -14,7 +14,8 @@ main>section>div:last-child {
 	flex-direction: column;
 }
 
-main>section>div>img {
+
+main>section>div>div>img {
 	width: 56vw;
 	height: 58vh;
 	margin-bottom: 19vh;
