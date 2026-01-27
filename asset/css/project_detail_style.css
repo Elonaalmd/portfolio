@@ -20,10 +20,16 @@ main>section>div>div {
 }
 
 main>section>div>div>img {
+	display: none;
+}
+
+main>section>div>div>img:first-child {
+	display: inline;
 	width: 56vw;
 	height: 58vh;
 	margin-bottom: 19vh;
 }
+
 
 main>section>div>div>div {
 	display: flex;
