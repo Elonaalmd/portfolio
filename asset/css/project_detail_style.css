@@ -14,12 +14,15 @@ main>section>div:last-child {
 	flex-direction: column;
 }
 
+main>section>div>div {
+	display: flex;
+	justify-content: center;
+}
 
 main>section>div>div>img {
 	width: 56vw;
 	height: 58vh;
 	margin-bottom: 19vh;
-	align-self: center;
 }
 
 main>section>div>div>div {
