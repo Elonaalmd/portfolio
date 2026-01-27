@@ -1,6 +1,8 @@
 let spinner = document.getElementById("logi_spinner")
-spinner.first_to_back = function () {
-	spinner.appendChild(spinner['children'][0])
+if (spinner != null) {
+	spinner.first_to_back = function () {
+		spinner.appendChild(spinner['children'][0])
+	}
 }
 setInterval(spinner.first_to_back, 5000)
 
